@@ -24,7 +24,8 @@
     "express": "^4.18.2",
     "gitignore": "^0.7.0",
     "mongodb": "^5.7.0",
-    "mongoose": "^7.4.2"
+    "mongoose": "^7.4.2",
+    "react-router-dom": "^6.15.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"

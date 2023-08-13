@@ -19,7 +19,7 @@ app.use(cors({ origin: true, credentials: true }));
 // Init Middleware
 app.use(express.json({ extended: false }));
 
-app.get('/', (req, res) => res.send('SERVER ONLINE'));
+app.get('/', (req, res) => res.send('SERVER UP'));
 
 // use Routes
 app.use('/api/books', books);
